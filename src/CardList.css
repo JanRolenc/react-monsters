@@ -1,0 +1,17 @@
+/* .cardList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+} */
+
+
+/* pomoci grid */
+
+.cardList {
+    margin: 20px;
+    display: grid;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* justify-content: space-evenly; */
+    grid-gap: 20px;
+}
